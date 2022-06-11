@@ -35,8 +35,6 @@ namespace PhuKienGiaReCrawler
             var baseUri = "https://phukiengiare.tino.page";
             var authHeader = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(ASCIIEncoding.ASCII.GetBytes("admin:admin")));
             shopClient.BaseAddress = new Uri(baseUri);
-
-            asdf
             
             // Phụ kiện
 
